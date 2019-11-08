@@ -46,7 +46,7 @@ sudo apt-get install gcc-8 g++-8
 Now you need to install the required dependencies and the latest release of the xmrig miner and compile it with gcc-8.
 
 ```bash
-sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev
+sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
 git clone https://github.com/xmrig/xmrig.git
 cd xmrig
 sudo mkdir build
